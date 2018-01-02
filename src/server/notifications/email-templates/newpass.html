@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{> style}}
+    <title>{{appName}} - {{#T}}NEW_PASSWORD{{/T}}</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <div id="container">
+            <h1>{{#T}}NEW_PASSWORD_FOR{{/T}} {{appName}} {{#T}}ACCOUNT{{/T}}</h1>
+            <p>{{#T}}NEW_PASSWORD_REQUESTED{{/T}} {{appName}}. {{#T}}CLICK_BELOW_FOR_NEW_PASSWORD{{/T}}</p>
+            <p><a href="{{linkUrl}}">{{#T}}CLICK_HERE{{/T}}</a></p>
+            <p>{{#T}}DISCARD_IF_PASSWORD_NOT_REQUESTED{{/T}}
+            <br>
+            <p>{{#T}}REGARDS{{/T}}, {{companyName}}</p>
+            <img src="cid:logo@sensefarm.com" alt="{{companyName}}" width="200">
+            <br>
+            <small>{{#T}}NOREPLY{{/T}}</small>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

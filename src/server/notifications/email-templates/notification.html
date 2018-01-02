@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{> style}}
+    <title>{{appName}} - {{title}}</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <div id="container">
+            <h1>{{title}}</h1>
+            <p>{{msg}}</p>          
+            <br>
+            <p>{{#T}}REGARDS{{/T}}, {{companyName}}</p>
+            <img src="cid:logo@sensefarm.com" alt="{{companyName}}" width="200">
+            <br>
+            <small>{{#T}}NOREPLY{{/T}}</small>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

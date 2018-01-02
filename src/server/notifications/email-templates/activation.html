@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{> style}}
+    <title>{{appName}} - {{#T}}ACTIVATION{{/T}}</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <div id="container">
+            <h1>{{#T}}WELCOME_TO{{/T}} {{appName}}!</h1>
+            <p>{{#T}}THANK_YOU_FOR_REGISTERING{{/T}}</p>
+            <p><a href="{{linkUrl}}">{{#T}}CLICK_HERE{{/T}}</a></p>
+            <p>{{#T}}YOU_RECEIVED_THIS_EMAIL_BECAUSE{{/T}} {{appName}}. {{#T}}IF_YOU_DID_NOT_REGISTER{{/T}}</p>
+            <br>
+            <p>{{#T}}REGARDS{{/T}}, {{companyName}}</p>
+            <img src="cid:logo@sensefarm.com" alt="{{companyName}}" width="200">
+            <br>
+            <small>{{#T}}NOREPLY{{/T}}</small>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

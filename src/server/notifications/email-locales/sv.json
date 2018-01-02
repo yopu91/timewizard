@@ -1,0 +1,16 @@
+{
+	"ACCOUNT": "konto",
+	"ACTIVATION": "Aktivering",
+	"CLICK_BELOW_FOR_NEW_PASSWORD": "Använd länken nedan för att välja ett nytt lösenord.",
+	"CLICK_HERE": "Klicka här!",
+	"DISCARD_IF_PASSWORD_NOT_REQUESTED": "Om du inte begärt ett nytt lösenord vänligen ignorer detta meddelande.",
+	"IF_YOU_DID_NOT_REGISTER": "Om du inte registrerat dig vänligen ignorera detta meddelande.",
+	"NEW_PASSWORD": "Nytt Lösenord",
+	"NEW_PASSWORD_FOR": "Nytt lösenord för ditt",
+	"NEW_PASSWORD_REQUESTED": "Ett nytt lösenord har begärts för ditt konto på",
+	"NOREPLY": "Detta är ett automatiserat e-postmeddelande, inkorgen övervakas inte för svar.",
+	"REGARDS": "Vänliga hälsningar",
+	"THANK_YOU_FOR_REGISTERING": "Tack för din registrering! För att aktivera ditt konto, var vänlig klicka på länken nedan.",
+	"WELCOME_TO": "Välkommen till",
+	"YOU_RECEIVED_THIS_EMAIL_BECAUSE": "Du får detta meddelande eftersom du registrerat dig på"
+}

@@ -1,0 +1,16 @@
+{
+	"ACCOUNT": "account",
+	"ACTIVATION": "Activation",
+	"CLICK_BELOW_FOR_NEW_PASSWORD": "Please use the link below to choose a new password.",
+	"CLICK_HERE": "Click here!",
+	"DISCARD_IF_PASSWORD_NOT_REQUESTED": "If you did not request a new password please discard this email.",
+	"IF_YOU_DID_NOT_REGISTER": "If you did not make this registration please discard this email.",
+	"NEW_PASSWORD": "New Password",
+	"NEW_PASSWORD_FOR": "New password for your",
+	"NEW_PASSWORD_REQUESTED": "A new password was requested for your account on",
+	"NOREPLY": "This is an automated email, mailbox is not monitored for replies.",
+	"REGARDS": "Kind regards",
+	"THANK_YOU_FOR_REGISTERING": "Thank you for registering! To activate and use your account, please click the link below.",
+	"WELCOME_TO": "Welcome to",
+	"YOU_RECEIVED_THIS_EMAIL_BECAUSE": "You have received this email because you have registered on"
+}

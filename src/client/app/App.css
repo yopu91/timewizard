@@ -1,0 +1,109 @@
+@import '~semantic-ui-css/semantic.css';
+@import '~lato-font/css/lato-font.css';
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #F0F0F0;
+}
+
+a {
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 0;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.mainContent {
+  margin-left: 50px;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 2em;
+}
+
+.drawer {
+  background-color: #2E3E4E;
+  width: 50px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.drawer ul {
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+}
+
+.drawer ul > li {
+  display: block;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.drawer ul > li > a {
+  color: #7f8993;
+  padding: 10px 0;
+  font-size: 1.8em;
+  font-weight: 600;
+  display: block;
+}
+
+.drawer ul > li > a:hover {
+  color: #d4d5da;
+  background-color: #2a3a49;
+}
+
+.drawer ul > li > a.active {
+  color: #21BA45;
+}
+
+.headerBox {
+  background-color: #FFF;
+  position: fixed;
+  padding: 5px;
+  width: 750px;
+  top: 0;
+  right: 0;
+  height: 50px;
+  border-bottom: 1px solid #EEE;
+  border-left: 1px solid #EEE;
+}
+
+.headerImage {
+  margin-bottom: 0 !important;
+  height: 2em;
+}
+
+.pulldown {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  position: absolute;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  padding: 0 1em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+#hubspot-messages-iframe-container iframe {
+  bottom: 10px !important;
+}

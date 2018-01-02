@@ -1,0 +1,37 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "semi": ["error", "always"],
+      "no-extra-semi": "error",
+      "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+      "semi-spacing": ["warn", { "before": false, "after": true }],
+      "brace-style": ["warn", "stroustrup"],
+      "padded-blocks": "off",
+      "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+      "no-console": "off",
+      "react/prop-types": "off",
+      "keyword-spacing": "warn"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "globals": {
+      "HttpError": true,
+      "Promise": false,
+      "VERSION": false,
+      "PHONEGAP": false,
+      "BACKEND_URL": false
+    },
+    "env" : {
+      "node" : true,
+      "browser" : true
+    }
+}
