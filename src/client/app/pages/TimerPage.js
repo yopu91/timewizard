@@ -4,6 +4,7 @@ import RestrictedPageBase from 'pages/RestrictedPageBase';
 import Drawer from 'components/Drawer';
 import Footer from 'components/Footer';
 import HeaderBox from 'components/HeaderBox';
+import TimerClock from 'components/TimerClock';
 
 export default class TimerPage extends RestrictedPageBase {
 
@@ -23,12 +24,6 @@ export default class TimerPage extends RestrictedPageBase {
     this.mounted = false;
   }
 
-  renderContactInformation() {
-    return (
-      <p> Hello there, welcome to timewizard!</p>
-    );
-  }
-
 
   render() {
     return (
@@ -37,7 +32,7 @@ export default class TimerPage extends RestrictedPageBase {
         <div className='mainContent'>
           <HeaderBox title="Timer" />
           <Container>
-              {this.renderContactInformation()}
+            <TimerClock />
           </Container>
           <Footer />
         </div>
