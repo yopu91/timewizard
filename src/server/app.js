@@ -15,8 +15,8 @@ app.locals.models = require('./models');
 app.locals.email = require('./notifications/email');
 
 // Start data listnener.
-const dataListener = require('./data-listener');
-dataListener.start();
+//const dataListener = require('./data-listener');
+//dataListener.start();
 
 // API Routes.
 require('./routes/api/v1')(app);
@@ -26,7 +26,7 @@ app.use('/', express.static(path.join(__dirname, '../../dist/client/')));
 
 // React App
 app.all('*', function (req, res) {
-  
+
   // If looking for a file return 404.
   if (req.path.includes('.')) {
     res.sendStatus(404);

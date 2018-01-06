@@ -22,8 +22,8 @@ export default class LoginPage extends React.Component {
     this.emailChange = this.emailChange.bind(this);
     this.passwordChange = this.passwordChange.bind(this);
     this.signInClick = this.signInClick.bind(this);
-  }  
-  
+  }
+
   emailChange(event) {
     this.setState({ email: event.target.value });
   }
@@ -59,13 +59,13 @@ export default class LoginPage extends React.Component {
   }
 
   render() {
-    
+
     return (
       <Container className='fullHeight'>
         <Grid className='fullHeight' verticalAlign='middle' centered>
           <Grid.Row>
             <Grid.Column computer={6} mobile={14}>
-              <Image centered src={require('images/sensefarm_logo.svg')} style={{ padding: 10 }} />
+              <Image centered src={require('images/tw_logo.png')} style={{ padding: 10 }} />
               <Form onSubmit={this.signInClick}>
                 <Form.Field>
                   <Input icon='at' iconPosition='left' placeholder='Email' type='email' value={this.state.email} onChange={this.emailChange} />
