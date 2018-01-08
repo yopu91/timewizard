@@ -1,12 +1,14 @@
 import React from 'react';
-import { Segment, Input, Icon, Button } from 'semantic-ui-react';
+import { Segment, Input, Icon, Button, Label } from 'semantic-ui-react';
 
 class TimerClock extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            timerRunning: false
+            timerRunning: false,
+            currentTimer: 0,
+            timer: 0
         };
 
         this.timerStart = this.timerStart.bind(this);
@@ -26,6 +28,10 @@ class TimerClock extends React.Component {
         this.setState({
             timerRunning: false
         });
+    }
+
+    updateClock() {
+        console.log('updateClock');
     }
 
     renderTimerButton() {
@@ -50,6 +56,7 @@ class TimerClock extends React.Component {
             <Segment>
                 <Input placeholder='What are you working on?' />
                 {this.renderTimerButton()}
+                <Label>{this.state.currentTimer}</Label>
             </Segment>
         );
     }
